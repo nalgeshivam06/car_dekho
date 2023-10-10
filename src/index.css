@@ -6,6 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -30,8 +34,16 @@ code {
 .cart-btn{
   float: right;
   background-color: white;
-  color: blue;
-  border-color: blue;
+  border-radius: 25px;
+  width: 98px;
+  border: 2px solid #c114c1;
   border-radius: 66px;
-  font-size: 14px;
+  height: 43px;
+  font-size: 16px;
+}
+.custom-input{
+    width: 500px;
+    border-radius: 23px;
+    border: 2px solid;
+    border-color: #9a13ab;
 }

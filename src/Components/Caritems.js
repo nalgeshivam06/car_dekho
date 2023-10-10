@@ -36,6 +36,7 @@ function Caritems(props) {
                     
                     <h4 style={{ float: "left", color: "blue" }}>$1500</h4>
                     <p style={{ margin: "5px", display: "inline" }}>/hr</p>
+                    <button className='cart-btn' > Rent Now</button>
                     
                 </div>
             </div>

@@ -3,7 +3,8 @@ import Pagination from './Pagination';
 import cardata from './SampleOutput.json';  
 import Caritems from './Caritems';
 
-function Cars() {
+function Cars(props) {
+  let {search }=props;
   const CarsData = cardata.Cars;  
 
   const itemsPerPage = 6;
