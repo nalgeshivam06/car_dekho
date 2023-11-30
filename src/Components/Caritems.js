@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 function Caritems(props) {
     let { title, imageURL } = props;
-    let id = 1;
+    //let id = 1;
     return (
         <div>
             <div className="card" style={{ width: "24rem" }} >
