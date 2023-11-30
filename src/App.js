@@ -1,17 +1,19 @@
-// import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 import Navbar from './Components/Navbar';
-import Cars from './Components/Cars';
-
+ import Cars from './Components/Cars';
 
 function App() {
+  const [search, setSearch] = useState('');
+
+  const handleSearch = (searchValue) => {
+    setSearch(searchValue);
+  };
+
   return (
-    <>
-    <Navbar/>
-    <Cars/>
-   
-    
-    </>
+    <div>
+      <Navbar onSearch={handleSearch} />
+      <Cars search={search} />
+    </div>
   );
 }
 
